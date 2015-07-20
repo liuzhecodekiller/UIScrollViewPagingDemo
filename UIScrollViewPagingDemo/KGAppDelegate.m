@@ -7,7 +7,7 @@
 //
 
 #import "KGAppDelegate.h"
-
+#import "KGRootViewController.h"
 @implementation KGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -15,6 +15,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    KGRootViewController * rvc = [[KGRootViewController alloc]init];
+    UINavigationController * nvc = [[UINavigationController alloc]initWithRootViewController:rvc];
+    self.window.rootViewController = nvc;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

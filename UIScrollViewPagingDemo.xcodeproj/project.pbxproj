@@ -19,6 +19,13 @@
 		BC7143DE1B325F600014AEA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7143C61B325F600014AEA7 /* UIKit.framework */; };
 		BC7143E61B325F600014AEA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC7143E41B325F600014AEA7 /* InfoPlist.strings */; };
 		BC7143E81B325F600014AEA7 /* UIScrollViewPagingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7143E71B325F600014AEA7 /* UIScrollViewPagingDemoTests.m */; };
+		BC7143F31B325F6C0014AEA7 /* KGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7143F21B325F6C0014AEA7 /* KGRootViewController.m */; };
+		BC7143FA1B325FA70014AEA7 /* 美女20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC7143F41B325FA70014AEA7 /* 美女20.jpg */; };
+		BC7143FB1B325FA70014AEA7 /* 美女21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC7143F51B325FA70014AEA7 /* 美女21.jpg */; };
+		BC7143FC1B325FA70014AEA7 /* 美女22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC7143F61B325FA70014AEA7 /* 美女22.jpg */; };
+		BC7143FD1B325FA70014AEA7 /* 美女23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC7143F71B325FA70014AEA7 /* 美女23.jpg */; };
+		BC7143FE1B325FA70014AEA7 /* 美女24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC7143F81B325FA70014AEA7 /* 美女24.jpg */; };
+		BC7143FF1B325FA70014AEA7 /* 美女25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC7143F91B325FA70014AEA7 /* 美女25.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,14 @@
 		BC7143E31B325F600014AEA7 /* UIScrollViewPagingDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIScrollViewPagingDemoTests-Info.plist"; sourceTree = "<group>"; };
 		BC7143E51B325F600014AEA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC7143E71B325F600014AEA7 /* UIScrollViewPagingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewPagingDemoTests.m; sourceTree = "<group>"; };
+		BC7143F11B325F6C0014AEA7 /* KGRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGRootViewController.h; sourceTree = "<group>"; };
+		BC7143F21B325F6C0014AEA7 /* KGRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGRootViewController.m; sourceTree = "<group>"; };
+		BC7143F41B325FA70014AEA7 /* 美女20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女20.jpg"; sourceTree = "<group>"; };
+		BC7143F51B325FA70014AEA7 /* 美女21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女21.jpg"; sourceTree = "<group>"; };
+		BC7143F61B325FA70014AEA7 /* 美女22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女22.jpg"; sourceTree = "<group>"; };
+		BC7143F71B325FA70014AEA7 /* 美女23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女23.jpg"; sourceTree = "<group>"; };
+		BC7143F81B325FA70014AEA7 /* 美女24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女24.jpg"; sourceTree = "<group>"; };
+		BC7143F91B325FA70014AEA7 /* 美女25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女25.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +124,14 @@
 			children = (
 				BC7143D11B325F600014AEA7 /* KGAppDelegate.h */,
 				BC7143D21B325F600014AEA7 /* KGAppDelegate.m */,
+				BC7143F11B325F6C0014AEA7 /* KGRootViewController.h */,
+				BC7143F21B325F6C0014AEA7 /* KGRootViewController.m */,
+				BC7143F41B325FA70014AEA7 /* 美女20.jpg */,
+				BC7143F51B325FA70014AEA7 /* 美女21.jpg */,
+				BC7143F61B325FA70014AEA7 /* 美女22.jpg */,
+				BC7143F71B325FA70014AEA7 /* 美女23.jpg */,
+				BC7143F81B325FA70014AEA7 /* 美女24.jpg */,
+				BC7143F91B325FA70014AEA7 /* 美女25.jpg */,
 				BC7143D41B325F600014AEA7 /* Images.xcassets */,
 				BC7143C91B325F600014AEA7 /* Supporting Files */,
 			);
@@ -221,7 +244,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC7143CD1B325F600014AEA7 /* InfoPlist.strings in Resources */,
+				BC7143FD1B325FA70014AEA7 /* 美女23.jpg in Resources */,
+				BC7143FC1B325FA70014AEA7 /* 美女22.jpg in Resources */,
+				BC7143FA1B325FA70014AEA7 /* 美女20.jpg in Resources */,
 				BC7143D51B325F600014AEA7 /* Images.xcassets in Resources */,
+				BC7143FE1B325FA70014AEA7 /* 美女24.jpg in Resources */,
+				BC7143FB1B325FA70014AEA7 /* 美女21.jpg in Resources */,
+				BC7143FF1B325FA70014AEA7 /* 美女25.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC7143F31B325F6C0014AEA7 /* KGRootViewController.m in Sources */,
 				BC7143D31B325F600014AEA7 /* KGAppDelegate.m in Sources */,
 				BC7143CF1B325F600014AEA7 /* main.m in Sources */,
 			);
